@@ -1,22 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import CatAPI from './components/Cat-API/index.js'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Generador de Gatos en ReactJS</h1>
+        <CatAPI/>
+        <h3>Creado por Alisson Ross para Modulo 3 BVT 2023</h3>
       </header>
     </div>
   );
